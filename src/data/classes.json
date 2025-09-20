@@ -1,0 +1,40 @@
+﻿{
+  "classes": {
+    "Warrior": {
+      "base_hp": 150,
+      "base_mana": 25,
+      "default_abilities": ["Slash", "Hamstring"],
+      "abilities": {
+        "Slash": {
+          "unlock_level": 1,
+          "base_damage": 5,
+          "crit_modifier": 2
+        },
+        "Hamstring": {
+          "unlock_level": 1,
+          "base_damage": 1,
+          "crit_modifier": null
+        }
+      }
+    },
+    "Mage": {
+      "base_hp": 85,
+      "base_mana": 125,
+      "default_abilities": ["Frost Bolt", "Fire Ball"],
+      "abilities": {
+        "Frost Bolt": {
+          "unlock_level": 1,
+          "base_damage": 8,
+          "crit_modifier": 1.5,
+          "cast_time": 1
+        },
+        "Fire Ball": {
+          "unlock_level": 2,
+          "base_damage": 12,
+          "crit_modifier": 2,
+          "cast_time": 1.5
+        }
+      }
+    }
+  }
+}
